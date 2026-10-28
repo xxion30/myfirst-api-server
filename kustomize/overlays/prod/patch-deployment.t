@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: {{USER_NAME}}-{{SERVICE_NAME}}
 spec:
-  replicas: 3
+  replicas: 10
   template:
     spec:
       containers:
