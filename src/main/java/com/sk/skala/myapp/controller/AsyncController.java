@@ -19,7 +19,7 @@ public class AsyncController {
     private final AsyncService asyncService;
 
     /**
-     * 비동기 메서드 호출 - 반환값 없음
+     * 비동기 메서드 호출 - 반환값 없음.
      * 
      * 예시: GET /api/void?message=test
      */
